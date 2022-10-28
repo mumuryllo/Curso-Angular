@@ -1,0 +1,40 @@
+<!--Interpolation-->
+<!--Eu posso fazer operações e lógica dentro das chaves-->
+
+<h2>Interpolation</h2>
+
+<p>{{nome}} tem {{idade}} anos!</p>
+<p>{{nome}} tem mais de 20 anos?</p>
+<p>{{idade >20}} </p>
+
+<hr>
+
+<h2>Property Bliding</h2>
+<button [disabled] = "ckeckDisabled">Button</button>
+<img [src] = "imgSrc" [title]="imgTitle">
+
+
+<br>
+<br>
+<hr>
+
+<button (click)="alerta($event)">Evento</button>
+
+<div (mousemove)="TesteMove($event)" style="background: red;
+width: 300px;
+height: 300px;
+"></div>
+{{posicao.x}} - {{posicao.y}}
+
+
+<br>
+<br>
+<hr>
+
+<h2>Two-way Bliding</h2>
+<input [(ngModel)]="nome">
+{{nome}}
+
+<br>
+<br>
+<hr>
