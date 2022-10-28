@@ -1,0 +1,10 @@
+ng new nome do projeto- criar os diretórios e tals
+
+dentro da pasta do projeto
+
+ng s- cria um servidor local pra gente ve a aplicação
+ng b- permite a gente monitora o código e ve como esta se comportando
+ng generate --help - mostra o que vc quer gerar, por exemplo qro gerar componente, então 
+ng g c exemplo
+e assim vai
+

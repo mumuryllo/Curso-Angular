@@ -1,0 +1,19 @@
+Cada componente do angular tem um ciclo de vida e tem 8 estagios diferentes
+
+ngOnInit () - já inicia o componente com as funções que vc deseja dentro dele.
+
+ngOnChanges () - Este evento é executado sempre que o valor de entrada é alterado e é sempre ativado com dados de fora.
+
+ngDoCheck () - esse evento é disparado sempre que as propriedades de entrada de um componente são verificados.
+
+ngAfterContentInit: sempre que um conteúdo vindo de uma fonte externa do componente é inserido;
+
+ngAfterContentChecked: quando o conteúdo externo é verificado;
+
+ngAfterViewInit: executado logo após os dados dos filhos e do próprio componente ser inicializado;
+
+ngAfterViewChecked: sempre que é detectado uma alteração do conteúdo é chamado esse cara.
+
+ngIf - oculta propriedades.
+
+ngOnDestroy = mostra se um componente foi destruido.
